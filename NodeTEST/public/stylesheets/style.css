@@ -1,0 +1,15 @@
+*{margin:0;padding:0;}
+.clear{zoom:1}
+.clear:after{content:'.';clear:both;height:0; visibility: hidden;display:block;}
+.divFrame{width:600px;border:1px solid #eee;background:#fafcff;margin:0 auto; position: relative;}
+.divFrame .divTitle{padding:5px;background:#666;}
+.divFrame .divTitle span{padding:2px; padding-top:5px; font-family: helvetica;font-size: 14px;}
+.divFrame .divContent{height:400px; overflow:hidden;}
+.divFrame .divContent .clsShow .ShowBottom{text-align: right;font-size: 12px;color:#555;}
+.divFrame .divSubmit{padding:20px;}
+.divFrame .divSubmit .SubContent .subbtn{padding-top:10px;padding-bottom:12px; font-size: 12px; color:#555; font-weight:bold;}
+.clsTip{ display:none;position: absolute;width:160px; text-align: center;height:30px; line-height: 30px; left:180px;top:50px; font-size: 14px; border:1px solid #cc3300; padding:2px; margin-bottom:5px;background-color:#FFE0A3;}
+#txtContent{width:500px;height:50px;}
+.SubTitle{height:40px; line-height: 40px;}
+.ln_newMain{padding:15px 0 15px 0; background:#eee;border-bottom: 1px solid #fff;}
+.userContent{width:500px;margin:0 auto;}

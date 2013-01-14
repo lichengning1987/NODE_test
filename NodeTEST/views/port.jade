@@ -1,0 +1,16 @@
+!{callback}(
+|   {
+|        page:1,
+|        rand:123,
+|        status:0,
+|        next:false,
+|        data:[
+each item in data
+    |            {
+    |            pictureUrl: "!{item.pictureUrl}",
+    |            originalPrice: "!{item.originalPrice}",
+    |            shopName: "!{item.shopName}"
+    |            },
+|        ]
+|   }
+)

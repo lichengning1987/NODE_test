@@ -1,0 +1,17 @@
+.divFrame
+    .divTitle
+        span 最新评论
+    .divContent
+    .divSubmit
+        .SubTitle
+            发表评论
+            span#divMsg.clsTip 正在发送数据请求
+        .SubContent
+           form(action='',method="post",id="formstb")
+               textArea#txtContent(class="txt",name="contents")
+               .SubBTN
+                    span(style="float:left")
+                        用户名:
+                        input(type="text",id="txtName",class="txt",name="username")
+                    span(style="float:right")
+                        input(type="submit",id="Button1",class="btn",value="发表")
